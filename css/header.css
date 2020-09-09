@@ -1,0 +1,211 @@
+#header *{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	min-width: 1200px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 2px solid sienna;
+}
+#header .my_font{
+	color: #666;
+	font-size: 0.8rem;
+}
+#header div>a{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	min-width: 1200px;
+	height: 90px;
+	background-position: center;
+	background-size: auto 90px; 
+}
+#header #dao_ding {
+	background-color: #eee;
+	width: 100%;
+	min-width: 1200px;
+	padding: 5px 0;
+}
+#header #dao_ding>div{
+	width: 1200px;
+	margin: 0 auto;
+}
+#header #dao_ding div>span{
+	background-color: #323332;
+	padding: 3px 5px;
+	color:#f7d89b; ;
+	font-size: 0.6rem;
+}
+#header #dao_ding div>ul{
+	display: flex;
+	float: right;
+	margin-right: 10px;
+}
+#header #dao_ding div>ul span{
+	margin:0 8px;
+
+}
+#header #dao_ding div>ul>li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 0.7rem;
+}
+#header #dao_zhong{
+	width: 1200px;
+	margin: 5px auto;
+}
+#header #dao_zhong  img{
+	float: left;
+}
+#header #dao_zhong #sou{
+	float: left;
+	margin-top: 45px;
+	margin-left: 180px;
+}
+#header #dao_zhong #sou #inp span{
+	display: inline-block; 
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	background-position: 0 -330px;
+}
+#header #dao_zhong #sou #inp{
+	float: left;
+	width: 350px;
+	height: 30px;
+	border: 1px solid #96602E;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#header #dao_zhong #sou #inp input{
+	margin-left:1px ;
+	width: 85%;
+	outline: none;
+	border: 0;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+}
+#header #dao_zhong #sou>span{
+	text-indent: 0.5rem;
+	display: inline-block;
+	width: 50px;
+	height: 32px;
+	line-height: 30px;
+	background-color: #96602E;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: white;
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+#header #dao_zhong #sou .inp_wen>ul{
+	display: flex;
+	margin-top: 3px;
+}
+#header #dao_zhong #sou .inp_wen>ul li{
+	margin:0 6px;
+}
+#header #dao_zhong #sou .inp_wen>ul li a{
+	color: #666;
+	font-size:0.6rem ;
+	
+}
+#header #dao_zhong #hua{
+	float: left;
+	margin-top: 45px;
+	margin-left: 80px;
+}
+#header #dao_zhong #hua div span{
+	background-image: url(../img/index_img/icon.png);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+#header .ico2{
+	background-position:-30px 0;
+	margin-left: 60px;
+}
+#header #dao_zhong #hua div{
+	float: left;
+}
+#header #dao_di{
+	margin: 0 auto;
+	width: 1200px;
+	clear: both;
+	display: flex;
+}
+#header #dao_di ul{
+	display: flex;
+	margin-top: 30px;
+}
+#header #dao_di ul li{
+	margin: 0 20px;
+	position: relative;
+	font-weight: bold;
+	font-size: 15px;
+}
+#header #dao_di ul li .img{
+	position: absolute;
+	top: -20px;
+	left: 55px;
+	
+}
+#header #dao_di ul li a.red{
+	color: red;
+}
+#header #dao_di ul li a:not(.red){
+	color: black;
+}
+#header #dao_di>div{
+	width: 115px;
+	height: 35px;
+	border: 1px solid #96602E;
+	border-radius: 20px;
+	line-height: 35px;
+	/*text-align: center;*/
+	text-indent: 1rem;
+	margin-top: 25px;
+	margin-left:100px;
+	font-size: 0.8rem;
+
+}
+#header #dao_di>div>span:first-child{
+	margin-top: 7px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/index_img/icon2.png);
+	background-position:  0 398px;
+	vertical-align: top;
+}
+#header #dao_di>div>span:last-child{
+	margin-top:2px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	/*vertical-align: top;*/
+	text-align: center;
+	color: white;
+	text-indent: 0;
+	border-radius: 50%;
+	margin-left: 3px;
+}
+#header #dao_di ul li:hover{
+	animation: hua 0.2s forwards;
+
+}
+@keyframes hua{
+	from{border: 0}
+	to{border-bottom: solid #96602E 2px;}
+}

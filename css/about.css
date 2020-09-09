@@ -1,0 +1,78 @@
+#content{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.my_font{
+	color: #666666;
+	font-size: 0.8rem;
+}
+.biao{
+	padding: 10px 35px;
+}
+.biao span{
+	margin: 0 5px;
+}
+.content{
+	display: flex;
+}
+.content .left{
+	width: 290px;
+	/*height: 1000px;*/
+	
+}
+.content .left>div{
+	border: 1px solid #E6E6E6;
+	margin-top: -1px;
+}
+.content .left>div b{
+	float: left;
+	width: 51px;
+	height: 50px;
+	margin: 10px -10px;
+	background-image: url(../img/index_img/icon_help.png);
+}
+.content .left>div.te h5:first-of-type{
+	margin: 10px 0;
+	padding-left:50px;
+	height: 40px;
+	background-color: #D6F188;
+	line-height: 40px;
+}
+.content .left>div h6{
+	padding-left: 30px;
+	margin: 5px 0;
+}
+.content .left>div a{
+	color: #666666;
+	font-size: 0.8rem;
+	display: block;
+	margin: 6px 0;
+	padding-left: 45px;
+}
+.content .left>div a.active{
+	color: #FFB94F;
+}
+.content .right {
+	margin-left: 20px;
+}
+.content .right .top{
+	border: 1px solid #E6E6E6;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+	color: #666666;
+	font-weight: bolder;
+}
+.content .right .bottom{
+	border: 1px solid #E6E6E6;
+	margin-top: -1px;
+	padding-left: 5px;
+}
+.content .right .bottom dl dt{
+	font-weight: bold;
+}
+.content .right .bottom dl dd{
+	line-height: 30px;
+}

@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#bir{
+	background-color: #FFE8F2;
+	max-width: 100%;
+	min-width: 1200px;
+}
+#bir .one>a img{
+	height: 500px;
+	max-width: 100%;
+	min-width: 1200px;
+}
+#bir .one>img{
+	width: 100%;
+	height: 230px;
+	min-width: 1200px;
+}
+#bir .one .content{
+	width: 1200px;
+	/*height: 500px;*/
+	margin: 0 auto;
+	/*background-color: antiquewhite;*/
+}
+#bir .one .content a{
+	display: inline-block;
+	width: 390px;
+	height: 420px;
+	background-color: white;
+	padding: 3px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	color: black;
+	margin-bottom: 20px;
+}
+#bir .one .content a img{
+	display: block;
+	width: 360px;
+	margin: 0 auto;
+}
+#bir .one .content a p{
+	margin: 3px 0;
+	padding-left: 10px;
+}
+#bir .one .content a span:first-of-type{
+	color: red;
+	padding-left:10px ;
+	font-weight: bold;
+}
+#bir .one .content a span:last-of-type{
+	float: right;
+	color: white;
+	background-color: red;
+	padding: 3px;
+	margin-right: 15px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+}
+#bir .two>img{
+	width: 100%;
+}
+.two .content{
+	width:1021px;
+	height: 800px;
+	background-image: url(../img/index_img/bgg.png);
+	margin: 0 auto;
+	background-size: 100% 100%;
+	border-radius:30px ;
+
+}
+.two .content a{
+	margin: 20px 0 15px 45px ;
+	display: inline-block;
+	width: 450px;
+	height: 360px;
+	color: black;
+	border: 1px solid #e6e6e6;
+	padding: 5px;
+}
+.two .content a p{
+	margin: 10px 0;
+}
+.two .content img{
+	display: block;
+	width: 435px;
+	height: 260px;
+	margin: 0 auto;
+}
+.two .content .ic{
+	width:250px;
+	height: 45px;
+	background-size: 100% 100%;
+	line-height: 45px;
+	background-image: url(../img/index_img/sd_16.png);
+}
+.two .content .ic span{
+	margin-left: 95px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: #F7C433;
+	
+}
+#bir .more{
+	width: 1200px;
+	margin: 15px auto;
+}
+#bir .more>a{
+	display:block;
+	width: 250px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 40px;
+	color: white;
+	background-color: red;
+	margin: 0 auto;
+	font-weight: bolder;
+	font-size: 30px;
+	
+}

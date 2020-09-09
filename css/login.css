@@ -1,0 +1,160 @@
+
+iframe{
+	width: 100%;
+	outline: none;
+	border: 0;
+	min-width: 1200px;
+	border-bottom:2px solid  #96602E;
+}	
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	
+}
+.ce{
+	margin-top: 55px;
+	margin-left: 60px;
+}
+.content>.login_con{
+	width: 480px;
+	border: 1px solid #E6E6E6;
+	margin-left:50px ;
+	height: 430px;
+	margin-top: 30px;
+	border-radius:4px ;
+	box-shadow: 1px 1px 10px 1px #E6E6E6;
+}
+.content>.login_con>.ding{
+	height: 80px;
+	padding: 0 15px;
+}
+.content>.login_con>.ding>span{
+	display: inline-block;
+	width: 49%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color:#999 ;
+	font-family:"微软雅黑";
+	cursor: pointer;
+}
+dl,dt,dd{
+	display: block;
+}
+dl{
+	overflow: hidden;
+	border: 1px solid #e6e6e6;
+	width: 350px;
+	margin: -1px auto 0;
+	padding: 0 10px;
+}
+dt{
+	width: 80px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	color: #666;
+	font-size: 0.8rem;
+}
+dd{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width:265px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.content>.login_con>.deng,.content>.login_con>.zhuce{
+	display: none;
+}
+.content>.login_con input{
+	width: 265px;
+	height: 30px;
+	border: 0;
+	outline: 0;
+}
+.content>.login_con>.deng .yanz{
+	margin-left:55px ;
+	margin-top: 10px;
+}
+.content>.login_con>.deng .yanz>span{
+	color: #666666;
+	font-size: 0.8rem;
+	padding-left: 5px;
+}
+.content>.login_con>.deng .yanz>input{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.content>.login_con>.deng .yanz>a{
+	margin-left: 180px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 0.8rem;
+}
+.content>.login_con .a{
+	text-decoration: none;
+	display: block;
+	width: 300px;
+	height: 40px;
+	background-color: #AC976B;
+	color: white;
+	margin-top: 20px;
+	outline: 0;
+	border: 0;
+	margin: 10px auto;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+}	
+.content>.login_con .write{
+	background-color: white;
+	color: black;
+	border: 1px solid #e8e8e8;
+}
+.content>.login_con button:hover{
+	cursor: pointer;
+}
+.content>.login_con>.zhuce span{
+	float: left;
+}
+.content>.login_con>.zhuce>.pos input{
+	width: 140px;
+}
+.content>.login_con>.zhuce>.pos #dd{
+	width: 140px;
+}
+.content>.login_con>.zhuce .pos>dd:last-child{
+	width: 130px;
+	float: left;
+}
+.content>.login_con>.zhuce>.wenzi{
+	width: 350px;
+	margin:15px auto;
+	color: #666;
+	font-size: 0.8rem;
+	letter-spacing:1px;
+	line-height: 22px;
+	
+}
+.content>.login_con>.zhuce>.wenzi a{
+	text-decoration: none;
+	background-color: #21B384;
+	color: white;
+	
+	
+}
+div.ative{
+	display: block !important
+}
+.ding span.active{
+	color:#AC976B ;
+	border-bottom:2px solid #AC976B;
+}
+
